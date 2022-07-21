@@ -1,0 +1,7 @@
+.weekly-calendar-body__lane {
+  padding: 16px 4px;
+}
+
+.weekly-calendar-body__lane:not(:nth-child(1)) {
+  border-left: 1px solid #cbd5e1;
+}

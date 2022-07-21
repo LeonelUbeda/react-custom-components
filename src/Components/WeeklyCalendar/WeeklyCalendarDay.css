@@ -1,0 +1,19 @@
+.weekly-calendar-day__container {
+  display: flex;
+  justify-content: center;
+}
+
+.weekly-calendar-day {
+  font-weight: 600;
+  display: inline-flex;
+  color: #075985;
+  aspect-ratio: 1;
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.weekly-calendar-day__today {
+  background-color: #7dd3fc;
+}

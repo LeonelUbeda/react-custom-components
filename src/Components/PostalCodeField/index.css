@@ -1,0 +1,11 @@
+.postal-code-field {
+  padding: 9px;
+  border: solid 1px #dbeafe;
+  outline: 0;
+  width: 100%;
+  background: #eff6ff;
+}
+
+.postal-code-field__correct {
+  border: solid 1px #16a34a;
+}

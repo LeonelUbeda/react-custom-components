@@ -1,0 +1,8 @@
+.weekly-calendar-body-item {
+  margin-bottom: 8px;
+  padding: 8px 0;
+  min-height: 50px;
+  text-align: center;
+  background-color: #dbeafe;
+  border-radius: 8px;
+}

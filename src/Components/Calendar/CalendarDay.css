@@ -1,0 +1,48 @@
+.calendar-day {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 14px;
+  aspect-ratio: 1;
+}
+
+.calendar-day:hover {
+  cursor: pointer;
+}
+
+.calendar-day__out-of-range {
+  color: #9ca3af;
+}
+
+.calendar-day__today {
+  color: #4338ca;
+  font-weight: 600;
+  position: relative;
+}
+
+.calendar-day__today::after {
+  content: "";
+  width: 70%;
+  border-bottom: #4338ca 1px solid;
+  top: 100%;
+  position: absolute;
+}
+
+.calendar-day__selected {
+  background-color: #4338ca;
+  font-weight: 600;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 8px;
+}
+
+.calendar-day__selected.calendar-day__today::after {
+  display: none;
+}
+
+.calendar-day__selected:hover {
+  color: white;
+}
