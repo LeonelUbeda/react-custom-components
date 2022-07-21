@@ -1,5 +1,5 @@
 import "./CalendarControls.css";
-import ArrowButton from "../ArrowButton/ArrowButton";
+import ArrowButton from "../ArrowButton";
 
 type Props = {
   title: string;

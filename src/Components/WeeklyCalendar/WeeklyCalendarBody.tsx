@@ -1,4 +1,3 @@
-import React from "react";
 import WeeklyCalendarGrid from "./WeeklyCalendarGrid";
 import "./WeeklyCalendarBody.css";
 import WeeklyCalendarBodyItem from "./WeeklyCalendarBodyItem";

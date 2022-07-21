@@ -1,4 +1,4 @@
-import ArrowButton from "../ArrowButton/ArrowButton";
+import ArrowButton from "../ArrowButton";
 import "./WeeklyCalendarControls.css";
 
 type Props = { title: string; onNext: () => void; onPrev: () => void };

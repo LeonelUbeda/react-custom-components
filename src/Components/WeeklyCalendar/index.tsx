@@ -1,9 +1,7 @@
 import {
   addWeeks,
   format,
-  getDate,
   getDay,
-  isThisWeek,
   isWithinInterval,
   Locale,
   subWeeks,
@@ -16,7 +14,6 @@ import WeeklyCalendarGrid from "./WeeklyCalendarGrid";
 import WeeklyCalendarWeekDays from "./WeeklyCalendarWeekDays";
 import "./index.css";
 import WeeklyCalendarBody from "./WeeklyCalendarBody";
-import { useMemo } from "react";
 
 type Props = {
   locale?: Locale;

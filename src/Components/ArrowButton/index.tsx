@@ -2,7 +2,7 @@ import { ButtonHTMLAttributes } from "react";
 import cn from "classnames";
 import ArrowLeft from "../../assets/arrow-left.svg";
 import ArrowRight from "../../assets/arrow-right.svg";
-import "./ArrowButton.css";
+import "./index.css";
 
 type Props = {
   direction: "left" | "right";
@@ -16,11 +16,7 @@ const ArrowButton = ({
   ...props
 }: Props) => {
   return (
-    <button
-      type="button"
-      className={cn(className, "calendar-controls__action-button")}
-      {...props}
-    >
+    <button type="button" className={cn(className, "arrow-button")} {...props}>
       <img
         src={direction === "left" ? ArrowLeft : ArrowRight}
         className={cn({

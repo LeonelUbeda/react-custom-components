@@ -7,17 +7,3 @@
   font-weight: 600;
   justify-content: space-between;
 }
-
-.calendar-controls__action-button {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-}
-
-.calendar-controls__arrow {
-  width: 30px;
-}
