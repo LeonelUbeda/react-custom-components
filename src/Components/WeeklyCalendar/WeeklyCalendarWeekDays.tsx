@@ -10,7 +10,7 @@ const WeeklyCalendarWeekDays = ({ locale }: Props) => {
   return (
     <div className="weekly-calendar-week-days">
       {weekDays.map((day) => (
-        <span>{day}</span>
+        <span key={day}>{day}</span>
       ))}
     </div>
   );

@@ -21,17 +21,20 @@ function App() {
   return (
     <div className="App" style={{ padding: "20px" }}>
       <div style={{ marginBottom: "100px" }}>
+        <h4>Weekly Calendar</h4>
         <WeeklyCalendar
           currentWeek={currentWeek}
           onWeekChange={(date) => setCurrentWeek(date)}
           entries={weeklyCalendarEntries}
         />
       </div>
-      <div style={{ marginBottom: "100px" }}>
+      <div style={{ marginBottom: "100px", width: "300px" }}>
+        <h4>USA postal code input</h4>
         <PostalCodeField value={zip} onChange={(e) => setZip(e.target.value)} />
       </div>
-      Selected date {selectedDate?.toString()}
       <div style={{ width: "300px" }}>
+        <h4>Calendar</h4>
+        Selected date {selectedDate?.toDateString()}
         <Calendar
           currentMonth={state}
           selectedDate={selectedDate}

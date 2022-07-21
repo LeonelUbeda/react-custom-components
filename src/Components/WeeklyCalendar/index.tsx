@@ -52,7 +52,7 @@ const WeeklyCalendar = ({
       <WeeklyCalendarWeekDays locale={locale} />
       <WeeklyCalendarGrid className="weekly-calendar-days-background">
         {dates.map((date) => (
-          <WeeklyCalendarDay date={date} />
+          <WeeklyCalendarDay date={date} key={date.toDateString()} />
         ))}
       </WeeklyCalendarGrid>
 
